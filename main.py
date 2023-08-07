@@ -1,8 +1,6 @@
 import socket
 from requests import get
-from simple_websocket_server import WebSocketServer, WebSocket
 import socketserver
-import simple_http_server
 import urllib
 import http.server
 PORT = 9097
