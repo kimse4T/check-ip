@@ -15,6 +15,7 @@ def check_ip():
     print(platform)
     cmd = 'ls -l'
     os.system(cmd)
+    os.system('sudo apt-get update')
 
 check_ip()
 
